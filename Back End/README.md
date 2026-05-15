@@ -1,5 +1,5 @@
 # VOID_COPILOT — Opportunity Inbox Copilot
-## SOFTEC 2026 AI Hackathon
+
 
 ---
 
