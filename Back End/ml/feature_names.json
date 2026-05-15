@@ -1,0 +1,28 @@
+{
+  "features": [
+    "cgpa_gap",
+    "skills_overlap_pct",
+    "location_match",
+    "type_preference_match",
+    "graduation_year_match",
+    "financial_need",
+    "is_scholarship",
+    "urgency_score",
+    "quality_signal",
+    "cgpa_x_skills",
+    "financial_x_scholarship"
+  ],
+  "reason_labels": {
+    "skills_overlap_pct": "Strong skill overlap",
+    "cgpa_gap": "CGPA requirement cleared",
+    "urgency_score": "Deadline approaching",
+    "type_preference_match": "Matches your preferred type",
+    "location_match": "Location match",
+    "financial_need": "Financial need considered",
+    "is_scholarship": "Scholarship opportunity",
+    "graduation_year_match": "Graduation year match",
+    "quality_signal": "High quality opportunity signal",
+    "cgpa_x_skills": "Strong combined profile fit",
+    "financial_x_scholarship": "Financial need + scholarship bonus"
+  }
+}

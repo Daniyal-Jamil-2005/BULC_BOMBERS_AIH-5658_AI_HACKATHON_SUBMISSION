@@ -1,0 +1,144 @@
+.skill-gap-analysis {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-gap-analysis h3 {
+  margin: 0 0 8px 0;
+  color: #1a1a1a;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.skill-gap-analysis .description {
+  margin: 0 0 20px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.skill-gap-analysis .no-gaps {
+  color: #22c55e;
+  font-weight: 500;
+  padding: 16px;
+  background: #f0fdf4;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.skill-gaps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.skill-gap-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skill-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.skill-name {
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.demand-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.demand-badge.high {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.demand-badge.medium {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.demand-badge.low {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.frequency-count {
+  margin-left: auto;
+  color: #666;
+  font-size: 13px;
+}
+
+.frequency-bar-container {
+  width: 100%;
+  height: 8px;
+  background: #f3f4f6;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.frequency-bar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.frequency-bar.high {
+  background: linear-gradient(90deg, #dc2626, #ef4444);
+}
+
+.frequency-bar.medium {
+  background: linear-gradient(90deg, #d97706, #f59e0b);
+}
+
+.frequency-bar.low {
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+}
+
+.skill-gap-footer {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.skill-gap-footer .tip {
+  margin: 0;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.skill-gap-footer strong {
+  color: #1a1a1a;
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+  .skill-gap-analysis {
+    padding: 16px;
+  }
+  
+  .skill-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .frequency-count {
+    margin-left: 0;
+  }
+}

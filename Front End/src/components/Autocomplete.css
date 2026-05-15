@@ -1,0 +1,140 @@
+.autocomplete-container {
+  position: relative;
+  width: 100%;
+}
+
+.autocomplete-input {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 13px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: transparent;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.autocomplete-input:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.1);
+}
+
+.autocomplete-input::placeholder {
+  color: rgba(255,255,255,0.4);
+}
+
+.autocomplete-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 4px;
+  max-height: 240px;
+  overflow-y: auto;
+  background-color: #0d0d0d;
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none; /* Hidden by default */
+}
+
+/* Only show when parent has the show class */
+.autocomplete-suggestions.show {
+  display: block;
+}
+
+.autocomplete-suggestion-item {
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 13px;
+  color: rgba(255,255,255,0.7);
+  transition: background-color 0.15s, color 0.15s;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.autocomplete-suggestion-item:hover,
+.autocomplete-suggestion-item.selected {
+  background-color: rgba(255,255,255,0.08);
+  color: #fff;
+}
+
+.autocomplete-suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.autocomplete-selected-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.skill-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background-color: rgba(255,255,255,0.08);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.skill-tag-remove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  color: rgba(255,255,255,0.7);
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.skill-tag-remove:hover {
+  color: #fff;
+}
+
+.skill-tag-remove:focus {
+  outline: none;
+}
+
+/* Scrollbar styling */
+.autocomplete-suggestions::-webkit-scrollbar {
+  width: 6px;
+}
+
+.autocomplete-suggestions::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.05);
+}
+
+.autocomplete-suggestions::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+}
+
+.autocomplete-suggestions::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .autocomplete-suggestions {
+    max-height: 180px;
+  }
+  
+  .skill-tag {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+}
