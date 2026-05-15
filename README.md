@@ -2,7 +2,7 @@
 
 An AI-powered email intelligence tool designed to scan, categorize, and prioritize high-value opportunities directly from your inbox. 
 
-Built during a 2026 hackathon, this copilot uses advanced LLMs to filter through the noise, extracting actionable leads, internships, and professional opportunities. It transforms a cluttered inbox into a streamlined feed of what actually matters, complete with deep analytics and skill gap assessments.
+ this copilot uses advanced LLMs to filter through the noise, extracting actionable leads, internships, and professional opportunities. It transforms a cluttered inbox into a streamlined feed of what actually matters, complete with deep analytics and skill gap assessments.
 
 ## 🚀 Key Features
 
