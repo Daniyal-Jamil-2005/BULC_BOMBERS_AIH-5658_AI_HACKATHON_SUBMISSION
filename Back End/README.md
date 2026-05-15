@@ -1,4 +1,4 @@
-# VOID_COPILOT — Opportunity Inbox Copilot
+# Inbox_COPILOT — Opportunity Inbox Copilot
 
 
 ---
