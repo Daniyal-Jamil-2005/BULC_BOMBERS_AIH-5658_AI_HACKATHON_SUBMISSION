@@ -40,4 +40,4 @@ Built during a 2026 hackathon, this copilot uses advanced LLMs to filter through
 - `/Misc`: Contains architecture diagrams, screenshots, and the Power BI (`.pbix`) report template.
 
 ## 👥 Team
-Built by **Daniyal, Aymal, and Muaaz** for the BULC Bombers AI Hackathon 2026.
+Built by **Daniyal, Aymal, and Muaaz** 
