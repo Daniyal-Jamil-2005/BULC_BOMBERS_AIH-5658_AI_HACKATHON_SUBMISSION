@@ -4,6 +4,9 @@ An AI-powered email intelligence tool designed to scan, categorize, and prioriti
 
  this copilot uses advanced LLMs to filter through the noise, extracting actionable leads, internships, and professional opportunities. It transforms a cluttered inbox into a streamlined feed of what actually matters, complete with deep analytics and skill gap assessments.
 
+ 
+<img width="1919" height="1122" alt="IInbox copilothero section" src="https://github.com/user-attachments/assets/a71e33e7-6198-4a18-b13a-a8d11c771791" />
+
 ## 🚀 Key Features
 
 - **Automated Opportunity Detection**: Identifies internships, job leads, and collaboration requests using agentic AI.
@@ -13,6 +16,10 @@ An AI-powered email intelligence tool designed to scan, categorize, and prioriti
 - **Comprehensive Reporting**: Generates downloadable PDF reports and integrates with a multi-page professional Power BI dashboard for granular metrics and historical tracking.
 - **Minimalist Architecture**: Optimized for speed, utilizing a robust FastAPI backend supported by MySQL for structured data and Neo4j for relationship mapping.
 - **Seamless Integration**: Designed to sit on top of your existing mail flow to provide real-time assistance.
+
+
+<img width="1914" height="1113" alt="inbox scan results" src="https://github.com/user-attachments/assets/b743db66-7d0d-4acb-9b30-7c8d085a6ba8" />
+
 
 ## 🛠️ Technology Stack
 
@@ -32,6 +39,9 @@ An AI-powered email intelligence tool designed to scan, categorize, and prioriti
 **Analytics:**
 - Power BI (Advanced data visualization)
 - Python PDF Generation (Automated reports)
+
+<img width="1914" height="1113" alt="inbox scan results" src="https://github.com/user-attachments/assets/8efb2991-8bf1-455a-bb17-3ddaa4059676" />
+
 
 ## 📂 Project Structure
 
