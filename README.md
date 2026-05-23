@@ -40,7 +40,8 @@ An AI-powered email intelligence tool designed to scan, categorize, and prioriti
 - Power BI (Advanced data visualization)
 - Python PDF Generation (Automated reports)
 
-<img width="1914" height="1113" alt="inbox scan results" src="https://github.com/user-attachments/assets/8efb2991-8bf1-455a-bb17-3ddaa4059676" />
+<img width="1909" height="1100" alt="Inbox scan" src="https://github.com/user-attachments/assets/eb890a23-bebb-44d2-87da-ccfe1a001eec" />
+
 
 
 ## 📂 Project Structure
